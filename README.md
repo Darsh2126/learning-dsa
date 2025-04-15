@@ -24,3 +24,18 @@ It's great for problems like:
 - Palindromes
 
 - Moving zeros / partitioning arrays
+
+#### Array => Sliding Window
+
+This method involves maintaining window (a range) that moves over the array to find a solution efficiently.
+
+There are 2 types
+1. Fixed Size Window
+The window size is constant.
+
+Useful when you're asked to find the max/min/sum/avg of a fixed-length subarray.
+
+2. Variable Size Window
+Window expands and shrinks based on a condition.
+
+Useful when asked to find longest/shortest subarray that satisfies a constraint.

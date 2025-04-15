@@ -54,3 +54,11 @@ const exercise2Sol = (arr: number[], index1: number, index2: number) => {
 // Output:
 [20, 10, 40, 30]
 */
+function swapPairs(arr: number[]): number[] {
+  for (let i = 0; i < arr.length - 1; i += 2) {
+    [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
+  }
+  return arr;
+}
+
+console.log(swapPairs([10, 20, 30, 40])); // [20, 10, 40, 30]
